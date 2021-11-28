@@ -28,7 +28,7 @@ def idflakies_element():
     plugin_artifactId.text = 'testrunner-maven-plugin'
     
     plugin_version = ET.SubElement(plugin, 'version')
-    plugin_version.text = '1.0'
+    plugin_version.text = '1.2'
     
     dependencies = ET.SubElement(plugin, 'dependencies')
     dependency = ET.SubElement(dependencies, 'dependency')
@@ -39,7 +39,7 @@ def idflakies_element():
     dep_artifactId.text = 'idflakies'
     
     dep_version = ET.SubElement(dependency, 'version')
-    dep_version.text = '1.0.2'
+    dep_version.text = '1.1.0'
     
     config = ET.SubElement(plugin, 'configuration')
     class_name = ET.SubElement(config, 'className')
